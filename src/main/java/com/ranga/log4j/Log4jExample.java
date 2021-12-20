@@ -18,7 +18,7 @@ public class Log4jExample {
 
 		String name = args.length > 0 ? args[0] : "Ranga Reddy";
 
-		LOGGER.error("Hello, " + name);
+		LOGGER.info("Hello, {}", name);
 		System.out.println("Hello, " + name);
 	}
 }
